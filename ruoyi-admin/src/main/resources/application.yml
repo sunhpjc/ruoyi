@@ -69,6 +69,12 @@ spring:
     restart:
       # 热部署开关
       enabled: true
+  #Activiti模块
+  activiti:
+    #是否检测流程定义===可以解决resource目录下没有process报错
+    check-process-definitions: false
+    #检测身份信息表是否存在
+    db-identity-used: false
 
 # MyBatis
 mybatis:
