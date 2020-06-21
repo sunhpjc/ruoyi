@@ -78,6 +78,13 @@
             <groupId>com.ruoyi</groupId>
             <artifactId>ruoyi-generator</artifactId>
         </dependency>
+
+        <!--依赖activiti-->
+        <dependency>
+            <groupId>com.ruoyi</groupId>
+            <artifactId>ruoyi-activiti</artifactId>
+            <version>4.2.0</version>
+        </dependency>
         
     </dependencies>
 
